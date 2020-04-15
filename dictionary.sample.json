@@ -1,0 +1,45 @@
+{
+    "languages": [
+        "es",
+        "en"
+    ],
+    "defaults": {
+        "es": [
+            "No te entiendo",
+            "No sé qué dices",
+            "No sé qué me estás pidiendo"
+        ],
+        "en": [
+            "What?",
+            "I don't understand"
+        ]
+    },
+    "intents": [
+        {
+            "name": "HELLO",
+            "language": "es",
+            "expressions": [
+                "Hola",
+                "Buenos días"
+            ],
+            "answers": [
+                "Hola",
+                "Hola, soy un chatbot",
+                "Hey! aquí estoy"
+            ]
+        },
+        {
+            "name": "HELLO",
+            "language": "en",
+            "expressions": [
+                "Hello",
+                "Hi"
+            ],
+            "answers": [
+                "Hello!",
+                "Hi, I'm a chatbot",
+                "Hey! I'm here"
+            ]
+        }
+    ]
+}

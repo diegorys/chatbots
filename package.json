@@ -1,0 +1,28 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "NodeJS Chatbot",
+  "scripts": {
+    "telegram": "node src/telegram.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegorys/node-chatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "telegram",
+    "nlp"
+  ],
+  "author": "diegorys.es",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegorys/node-chatbot/issues"
+  },
+  "homepage": "https://github.com/diegorys/node-chatbot#readme",
+  "dependencies": {
+    "node-nlp": "^4.3.0",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
