@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  chatbot:
+    build: .
+    volumes:
+      - ./code:/code
+      - ./data:/data
+    environment:
+      - TOKEN=${TOKEN}
+      - LNG=${LNG}
+    command: sh -c "npm install && npm start"
