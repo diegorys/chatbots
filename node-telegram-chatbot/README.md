@@ -1,4 +1,4 @@
-# Node Chatbot
+# Node Telegram Chatbot
 
 Chatbot with NodeJS and Telegram.
 
